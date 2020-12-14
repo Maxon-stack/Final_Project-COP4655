@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yelp App</title>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+    <script src="https://kit.fontawesome.com/c414f6c94e.js" crossorigin="anonymous"></script>
+
+    <script src ="home.js"></script>
+    <script src ="main.js"></script>
+    <script src ="auth.js"></script>   
+    <script src ="account.js"></script>
+    <script src ="fav.js"></script>
+     
+    <script src ="search.js"></script>
+    <script src ="firebase_creds.js"></script>    
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  
+  </head>
+  <body>
+    <div class = "app-wrap">
+      <main>
+        <div id = "content"> hello</div>
+      </main>
+      <nav class = "tab-container" id = "tab_container">
+        <button class = "tab home" id = "tab_home" >
+          <i class = "material-icons nav_icon">home</i>
+          <p class>home</p>
+        </button>
+        <button class = "tab search" id = "tab_search" >
+          <i class = "material-icons nav_icon">search</i>
+          <p class>search</p>
+        </button>
+        <button class = "tab fav" id = "tab_fav" >
+          <i class = "material-icons nav_icon">favorite</i>
+          <p class>favorite</p>
+        </button>
+        <button class = "tab user" id = "tab_user" >
+          <i class = "material-icons nav_icon">account_circle</i>
+          <p class>account</p>
+        </button>
+      </nav>
+    </div>
+    <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsHsT7FqqQPV5A9P9iEzoO9DbcJIf8lXs">
+  </script>
+  </body>
+  </html>
+</html>
